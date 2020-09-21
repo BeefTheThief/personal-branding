@@ -1,0 +1,26 @@
+/*
+ Theme Name:   astra child
+ Theme URI:    http://olivers-verden.com/astra-child-theme/
+ Description:  Astra Child Theme
+ Author:       Oliver Brøker
+ Author URI:   http://olivers-verden.com
+ Template:     astra
+ Version:      1.2.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachild
+*/
+*.main-header-bar-wrap {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background-color: black;
+}
+
+@media all and (min-width: 1024px) {
+body{
+    width: 100%;
+  	margin: 0;
+    }
+}
